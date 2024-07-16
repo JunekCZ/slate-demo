@@ -1,0 +1,23 @@
+.help-management-section-picker {
+  display: flex;
+  flex-direction: column;
+  width: 296px;
+
+  h3 {
+    color: blue;
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 2.4rem;
+  }
+
+  &__edit-type-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    gap: 8px;
+
+    .tcms-button {
+      width: 100%;
+    }
+  }
+}

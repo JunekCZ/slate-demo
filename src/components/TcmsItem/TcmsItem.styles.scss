@@ -1,0 +1,30 @@
+.tcms-item {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  padding: 0 1.2rem;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 8px;
+  gap: 1.2rem;
+  background-color: #ececec;
+  box-sizing: border-box;
+
+  &__label {
+    width: 100%;
+    color: #333333;
+    font-size: 1.4rem;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 2.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}

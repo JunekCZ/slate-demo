@@ -1,0 +1,18 @@
+.tcms-item-actions {
+  display: flex;
+  align-items: center;
+
+  &__switch {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  &__edit {
+    margin-right: 8px;
+    cursor: pointer;
+  }
+
+  &__delete {
+    cursor: pointer;
+  }
+}

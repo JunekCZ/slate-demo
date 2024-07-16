@@ -1,0 +1,38 @@
+.wysiwyg {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  border: 1px solid #ececec;
+  background-color: white;
+
+  &__toolbar {
+    display: flex;
+    padding: 0.8rem 1.2rem;
+    align-items: center;
+    border-bottom: 1px solid #ececec;
+    gap: 0.8rem;
+
+    button {
+      display: flex;
+      padding: 0;
+      align-items: center;
+      justify-content: flex-start;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+
+      &:hover path#Rectangle {
+        fill: #ececec;
+      }
+    }
+  }
+
+  div[role="textbox"] {
+    padding: 0.8rem 1.2rem;
+    outline: none;
+
+    span[data-slate-placeholder="true"] {
+      top: 1.5em !important;
+    }
+  }
+}

@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders TcmsItem component 1`] = `
+<DocumentFragment>
+  <div
+    class="tcms-item"
+    data-testid="tcms-item"
+  >
+    <div
+      class="drag-handle drag-handle--has-icon"
+    >
+      <svg>
+        dragdrop.svg
+      </svg>
+    </div>
+    <div
+      class="tcms-item__label"
+    >
+      Tranzice
+    </div>
+    <div
+      class="tcms-item__content"
+    >
+      <div
+        style="display: flex;"
+      >
+        <div
+          style="margin-left: 20px; cursor: pointer;"
+        >
+          <svg>
+            tcms-edit.svg
+          </svg>
+        </div>
+        <div
+          style="margin-left: 8px; cursor: pointer;"
+        >
+          <svg>
+            trash.svg
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Renders TcmsItem component with disabled attribute 1`] = `
+<DocumentFragment>
+  <div
+    class="tcms-item tcms-item--disabled"
+    data-testid="tcms-item"
+  >
+    <div
+      class="drag-handle drag-handle--disabled drag-handle--has-icon"
+    >
+      <svg>
+        dragdrop.svg
+      </svg>
+    </div>
+    <div
+      class="tcms-item__label"
+    >
+      Tranzice
+    </div>
+    <div
+      class="tcms-item__content"
+    >
+      <div
+        style="display: flex;"
+      >
+        <div
+          style="margin-left: 20px; cursor: pointer;"
+        >
+          <svg>
+            tcms-edit.svg
+          </svg>
+        </div>
+        <div
+          style="margin-left: 8px; cursor: pointer;"
+        >
+          <svg>
+            trash.svg
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
