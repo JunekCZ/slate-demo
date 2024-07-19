@@ -511,5 +511,6 @@ export const useHelpManagement = ({
     handleAddSortableItemClick,
     handleListChange,
     onItemUpdate,
+    setActiveItem,
   };
 };
